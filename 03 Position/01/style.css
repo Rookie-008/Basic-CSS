@@ -1,0 +1,30 @@
+/* selectors */
+
+h1 {
+	text-align: center;
+
+	text-shadow: 4px 2px red ;
+}
+
+#p2 {
+	text-align: right;
+
+	color: aqua;
+}
+
+.p3 {
+	text-align: center;
+	color: grey;
+}
+
+p.p4 {
+	text-align: center;
+	color: yellow;
+	text-shadow: 1px 1px black;
+}
+
+
+/** {
+	text-align: center;
+	color: black;
+}*/

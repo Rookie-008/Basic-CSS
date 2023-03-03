@@ -1,0 +1,59 @@
+.square1 {
+	width: 100px;
+	height: 150px;
+	background-color: red;
+	transform: rotate(-10deg);	
+
+	position: absolute;
+	margin: 100px;
+
+	border-radius: 5px;
+}
+
+.square2 {
+	width: 100px;
+	height: 150px;
+	background-color: yellow;
+	transform: rotate(0deg);	
+
+	position: absolute;
+	margin: 100px;
+
+	border-radius: 5px;
+}
+
+.square3 {
+	width: 100px;
+	height: 150px;
+	background-color: blue;
+	transform: rotate(10deg);	
+
+	position: absolute;
+	margin: 100px;
+
+	border-radius: 5px;
+}
+
+.square4 {
+	width: 100px;
+	height: 150px;
+	background-color: #ff7e0c;
+	transform: rotate(20deg);	
+
+	position: absolute;
+	margin: 100px;
+
+	border-radius: 5px;
+}
+
+.square5 {
+	width: 100px;
+	height: 150px;
+	background-color: #0a1;
+	transform: rotate(30deg);	
+
+	position: absolute;
+	margin: 100px;
+
+	border-radius: 5px;
+}

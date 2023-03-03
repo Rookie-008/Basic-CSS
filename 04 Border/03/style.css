@@ -1,0 +1,25 @@
+h3.bor1 {
+	text-align: center;
+	border-style: dotted;
+	border-width: 10px;
+}
+
+h3.bor2 {
+	text-align: center;
+	border-style: dashed;
+}
+
+h3.bor3 {
+	text-align: center;
+	border-style: solid;
+}
+
+h3.bor4 {
+	text-align: center;
+	border-style: double;
+}
+
+h3.bor5 {
+	text-align: center;
+	border-style: groove dotted inset outset;
+}

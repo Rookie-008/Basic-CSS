@@ -1,0 +1,51 @@
+h3.bor1 {
+	text-align: center;
+
+	border-top-style: dotted;
+	border-right-style: solid;
+	border-bottom-style: dashed;
+	border-left-style: solid;
+}
+
+h3.bor2 {
+	text-align: left;
+
+	border-left: 2px solid aqua;
+}
+
+h3.bor3 {
+	text-align: center;
+
+	border-bottom: 5px solid #a03a07;
+}
+
+h3.bor4 {
+	text-align: center;
+
+	border: 2px solid #ff0a08;
+	border-radius: 5px;
+}
+
+
+h3.bor5 {
+	text-align: center;
+
+	border: 2px solid #ff0a08;
+	border-radius: 5px;
+
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+h3.bor6 {
+	text-align: center;
+
+	border: 2px solid #ff0a08;
+	border-radius: 5px;
+ 
+	margin: 100px 600px 0px 300px;
+/*	margin-left: inherit;*/
+/*	position: fixed;*/
+}

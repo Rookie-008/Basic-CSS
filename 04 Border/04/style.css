@@ -1,0 +1,27 @@
+h3.bor1 {
+	text-align: center;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: darkgoldenrod;
+}
+
+h3.bor2 {
+	text-align: center;
+	border-style: dotted;
+	border-width: thick;
+}
+
+h3.bor3 {
+	text-align: center;
+	border-style: dashed;
+	border-width: medium;
+	border-color: #27ff2c;
+
+}
+
+h3.bor4 {
+	text-align: center;
+	border-style: double;
+	border-width: 10px 8px 4px 3px;
+	
+}

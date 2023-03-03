@@ -1,0 +1,35 @@
+.shape {
+/*	display: inline;*/
+/*	display: block;*/
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+/*	margin: 100px;*/
+}
+
+#square1 {
+	background-color: aqua;
+/*	display: inline;*/
+/*	display: block;*/
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
+
+#square2 {
+	background-color: lightgreen;
+/*	display: inline;*/
+/*	display: block;*/
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
+
+#square3 {
+	background-color: darkviolet;
+/*	display: inline;*/
+/*	display: block;*/
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}

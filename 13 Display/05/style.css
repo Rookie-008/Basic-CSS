@@ -1,0 +1,91 @@
+.shape {
+	position: relative;
+}
+
+.oval1 {
+	position: relative;
+	z-index: 1;
+	border: 2px solid black;
+	width: 100px;
+	height: 50px;
+	border-radius: 50px/25px;
+
+	margin: 30px;
+
+	background: #ff3aff;
+}
+
+.oval2 {
+	position: relative;
+	z-index: 2;
+	
+	background: lightgreen;
+
+	border: 2px solid black;
+	width: 100px;
+	height: 50px;
+	border-radius: 50px/25px;
+
+	top: -75px;
+	left: 30px;
+}
+
+.oval3 {
+	position: relative;
+	z-index: 2;
+	
+	background: yellow;
+
+	border: 2px solid black;
+	width: 100px;
+	height: 50px;
+	border-radius: 50px/25px;
+
+	top: -120px;
+	left: 30px;
+}
+
+.oval4 {
+	position: relative;
+	z-index: 2;
+	
+	background: darkblue;
+
+	border: 2px solid black;
+	width: 100px;
+	height: 50px;
+	border-radius: 50px/25px;
+
+	top: -165px;
+	left: 30px;
+}
+
+.oval5 {
+	position: relative;
+	z-index: 2;
+	
+	background: #b45b16;
+
+	border: 2px solid black;
+	width: 100px;
+	height: 50px;
+	border-radius: 50px/25px;
+
+	top: -211px;
+	left: 30px;
+}
+
+
+
+
+/*.square {
+	position: relative;
+	z-index: 2;
+	background: green;
+	border: 2px solid black;
+	width: 50%;
+	top: -100px;
+	left: 50px;
+	height: 100px;
+}
+*/

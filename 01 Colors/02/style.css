@@ -1,0 +1,32 @@
+h1	{
+
+	background-color: aqua;
+
+}
+
+p.p1 {
+	color: rgb(243 45 45);
+}
+
+p.p2 {
+	color: hsl(110, 93%, 57%);
+}
+
+p.p3 {
+	color: rgba(153, 63, 245, 1.0);
+}
+
+p.p4 {
+	color: hsla(182, 26%, 39%, 0.9);
+}
+
+p.p5 {
+	color: #5f271d;
+}
+
+
+/** {
+
+	background-color: aqua;
+
+}*/

@@ -1,0 +1,32 @@
+h1.outline1 {
+	text-align: center;
+
+	border: 5px solid black;
+	outline-style: solid;
+	outline-color: yellow;
+	outline-width: medium;
+}
+
+h1.outline2 {
+	text-align: center;
+
+	border: 5px solid black;
+	outline: dotted #357783;
+}
+
+h1.outline3 {
+	text-align: center;
+
+	border: 5px solid black;
+	outline: dashed #2081aa;
+}
+
+h1.outline4 {
+	text-align: center;
+
+	margin: 50px;
+	background-color: aqua;
+	border: 5px solid black;
+	outline: 5px dashed #2081aa;
+	outline-offset: 10px;
+}

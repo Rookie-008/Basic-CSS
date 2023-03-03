@@ -1,0 +1,9 @@
+h1 {
+	font-family: Arial, sans-serif;
+	font-size: 50px;
+	color: aqua;
+
+	text-shadow: 5px 5px 10px red;
+/*	text-shadow: 2px 1px 1px grey;*/
+/*	text-shadow: 0px 0px 2px black;*/
+}

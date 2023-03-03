@@ -1,0 +1,10 @@
+th, td {
+	border-bottom: 2px solid grey;
+}
+
+tr:hover {
+	display: none;
+/*	display: grid;*/
+	vertical-align: inherit;
+	background-color: bisque;
+}

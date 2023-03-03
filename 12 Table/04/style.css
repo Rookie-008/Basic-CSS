@@ -1,0 +1,13 @@
+table {
+	width: 50%;
+}
+
+th, td {
+	text-align: center;
+	border-bottom: 2px solid grey;
+}
+
+tr:hover {
+	background-color: bisque;
+	
+}

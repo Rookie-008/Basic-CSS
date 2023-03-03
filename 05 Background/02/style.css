@@ -1,0 +1,9 @@
+body {
+	background-size: 100px 100px;
+	background-image: url("picture/images.png");
+}
+
+h1 {
+	color: darkgoldenrod;
+	text-shadow: 2px 5px black;
+}

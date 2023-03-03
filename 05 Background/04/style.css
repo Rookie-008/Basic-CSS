@@ -1,0 +1,11 @@
+body {
+	background-image: url("picture/images.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-attachment: fixed;
+}
+
+h1 {
+	color: darkgoldenrod;
+	text-shadow: 2px 5px black;
+}

@@ -1,0 +1,10 @@
+body {
+	background-image: url("picture/images.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+h1 {
+	color: darkgoldenrod;
+	text-shadow: 2px 5px black;
+}

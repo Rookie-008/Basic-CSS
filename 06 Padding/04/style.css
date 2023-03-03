@@ -1,0 +1,12 @@
+h3 {
+	text-align: center;
+	color: aqua;
+
+	padding: 10px 20px 30px 40px;
+	background-color: #5c2401;
+	
+	border-style: outset;
+	border-color: yellow;
+
+	border-width: 5px;
+}

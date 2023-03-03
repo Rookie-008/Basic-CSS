@@ -1,0 +1,20 @@
+div.collect {
+	margin: 5px;
+	border: 2px solid lightgrey;
+	float: left;
+	width: 150px;
+}
+
+div.collect:hover {
+	border: 2px solid black;
+}
+
+div.collect img {
+	width: 100%;
+	height: auto;
+}
+
+div.text {
+	padding: 5px;
+	text-align: center;
+}

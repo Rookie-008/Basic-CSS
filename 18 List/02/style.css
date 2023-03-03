@@ -1,0 +1,44 @@
+.list {
+	position: relative;
+	display: inline-block;
+}
+
+.button {
+	background-color: lightblue;
+	color: white;
+	padding: 10px 26px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+.menu-list {
+	display: none;
+	position: absolute;
+	background-color: lightblue;
+	min-width: 100px;
+	box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.5);
+/*	padding: 10px 20px;*/
+	z-index: 1;
+}
+
+.menu-list a {
+	color: black;
+	padding: 10px 15px;
+	text-decoration: none;
+	display: block;
+}
+
+
+.menu-list a:hover {
+	background-color: grey;
+/*	padding: 5px ;*/
+}
+
+.list:hover .menu-list {
+	display: block;
+}
+
+.list:hover .button {
+	background-color: grey;
+}

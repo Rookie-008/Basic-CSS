@@ -1,0 +1,23 @@
+.list {
+	position: relative;
+	display: inline-block;
+}
+
+.menu-list {
+	display: none;
+	position: absolute;
+	background-color: lightblue;
+	min-width: 100px;
+	box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.5);
+/*	padding: 10px 20px;*/
+	z-index: 1;
+}
+
+.note {
+	padding: 15px;
+	text-align: center;
+}
+
+.list:hover .menu-list {
+	display: block;
+}

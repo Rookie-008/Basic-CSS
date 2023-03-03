@@ -1,0 +1,17 @@
+/*p::before {
+	content: url(pic/circle.ico);
+}*/
+
+p::after {
+	content: url(pic/circle.ico);
+}
+
+::selection {
+	color: red;
+	background: blue;
+}
+
+::marker {
+	color: red;
+	font-size: 10px;
+}

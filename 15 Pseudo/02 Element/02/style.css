@@ -1,0 +1,5 @@
+p::first-line {
+	color: #3344fd;
+	font-variant: small-caps;
+	text-transform: lowercase;
+}

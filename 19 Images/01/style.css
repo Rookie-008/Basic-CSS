@@ -1,0 +1,26 @@
+#list {
+	position: relative;
+}
+
+#list li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+}
+
+#list li, #list a {
+	height: 50px;
+	display: block;
+}
+
+#home-button {
+	left: 0px;
+	width: 40px;
+	background: url('circle.ico') 0 0;
+}
+
+#home-button a:hover {
+	background: url('circle.ico');
+}

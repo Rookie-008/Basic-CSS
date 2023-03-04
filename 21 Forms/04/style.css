@@ -1,0 +1,22 @@
+input[type=text] {
+	width: 200px;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	border-radius: 5px;
+	
+	font-size: 20px;
+
+	background-color: white;
+	background-image: url('ico/search.ico');
+	background-position: 10px 15px;
+	background-repeat: no-repeat;
+
+	padding: 15px 10px 20px 50px;
+	transition: width 0.5s ease-in-out;
+}
+
+input[type=text]:focus {
+	width: 100%;
+	border-color: black;
+	border-radius: 4px;
+}

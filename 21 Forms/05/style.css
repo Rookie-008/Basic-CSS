@@ -1,0 +1,39 @@
+textarea {
+	width: 100%;
+	height: 100px;
+	padding: 10px 20px;
+	
+	box-sizing: border-box;
+
+	border: 2px solid black;
+	border-radius: 4px;
+	background-color: lightblue;
+	font-size: 15px;
+	resize: none;
+
+}
+
+select {
+	width: 100%;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: lightgreen;
+}
+
+input[type=accept], input[type=cancel], input[type=ignore] {
+	background-color: #75ff00;
+	border: none;
+	color: white;
+	padding: 5px 5px;
+
+	text-decoration: none;
+	text-align: center;
+
+	margin: 5px 2px;
+	cursor: pointer;
+}
+
+input[type=accept]:hover, input[type=cancel]:hover, input[type=ignore]:hover {
+	background-color: lightgreen;
+}

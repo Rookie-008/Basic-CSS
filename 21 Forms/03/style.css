@@ -1,0 +1,14 @@
+input[type=text] {
+	width: 100%;
+	padding: 5px 15px;
+	margin: 10px 0;
+	box-sizing: border-box;
+
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+input[type=text]:focus {
+	border-color: black;
+/*	background-color: lightblue;*/
+}

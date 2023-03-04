@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	padding: 5px;
+	background: lightgrey;
+}
+
+
+/* Header */
+.header {
+	background-color: grey;
+	padding: 5px;
+	text-align: center;
+}
+
+.header h1 {
+	font-size: 40px;
+}
+
+/* Navbar */
+.navbar {
+	overflow: hidden;
+	background-color: black;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 25px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color: #ff0a0f;
+	color: black;
+}
+
+/* Create Row and Columns */
+.column {
+	float: left;
+	width: 30%;
+	padding: 0px;
+}
+
+/* Left and Right column Size */
+.column.left-column {
+	float: left;
+	width: 75%;
+}
+
+.column.right-column {
+	float: left;
+	width: 25%;
+	background-color: lightgrey;
+	padding-left: 20px;
+}
+
+/* Border */
+.border {
+	background-color: white;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+/* Images */
+.images {
+	background-color: grey;
+	width: 100%;
+	padding: 10px;
+}
+
+/**/
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Footer */
+.footer {
+	background-color: grey;
+	padding: 2px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+/* Position */
+@media screen and (max-width:800px) {
+	.column.left-column, .column.right-column {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width:400px) {
+	.navbar a {
+		float: none;
+		width: 100%;
+	}
+}
+
+

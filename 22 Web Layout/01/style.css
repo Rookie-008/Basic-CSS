@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+}
+
+
+/* Header */
+.header {
+	background-color: grey;
+	padding: 5px;
+	text-align: center;
+}
+
+/* Navbar */
+.navbar {
+	overflow: hidden;
+	background-color: black;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 25px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color: #ff0a0f;
+	color: black;
+}
+
+/* Create Row and Columns */
+.column {
+	float: left;
+	width: 30%;
+	padding: 10px;
+}
+
+/* Left and Right column Size */
+.column.left-column {
+	width: 15%;
+	font-size: 10px;
+	margin: 0px 10px;
+	text-align: justify;
+}
+
+.column.menu-list {
+	width: 60%;
+	text-align: justify;
+}
+
+.column.right-column {
+	width: 15%;
+	font-size: 10px;
+	text-align: justify;
+}
+
+/**/
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/* Position */
+@media screen and (max-width:500px) {
+	.column.left-column, .column.menu-list {
+		width: 100%;
+	}
+}
+
+/* Footer */
+.footer {
+	background-color: lightgrey;
+	padding: 2px;
+	text-align: center;
+}

@@ -1,0 +1,17 @@
+/*[class|="top"] {
+	background: lightgreen;
+}
+*/
+
+/*[class$="para"] {
+	background: lightgreen;
+}*/
+
+
+/*[class^="top"] {
+	background: lightgreen;
+}*/
+
+[class*="to"] {
+	background: lightgreen;
+}

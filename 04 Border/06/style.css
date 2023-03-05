@@ -1,0 +1,15 @@
+#border1 {
+	border: 50px solid transparent;
+	padding: 5px;
+	border-image: url(border/border1.png) 50 round;
+
+	text-align: center;
+}
+
+#border2 {
+	border: 60px solid transparent;
+	padding: 5px;
+	border-image: url(border/border2.png) 50 round;
+
+	text-align: center;
+}

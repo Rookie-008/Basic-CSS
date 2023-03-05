@@ -1,0 +1,30 @@
+.round1 {
+	width: 150px;
+	height: 150px;
+	background: #2ad800;
+	padding: 10px;
+	border-radius: 50px;
+	display: inline-block;
+}
+
+.round2 {
+	width: 150px;
+	height: 150px;
+	background: #7ecc00;
+	padding: 10px;
+
+	border: 2px solid black;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+.round3 {
+	background: url(pic/images.png);
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+
+	border-radius: 20px;
+	display: inline-block;
+
+}

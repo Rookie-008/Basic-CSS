@@ -1,0 +1,52 @@
+body {
+	padding: 0px 0px;
+}
+
+.round1 {
+	width: 150px;
+	height: 150px;
+	background: #ff9b13;
+	padding: 10px;
+
+	border: 2px solid black;
+	border-radius: 100px 100%;
+
+	display: inline-block;
+
+	transform: rotate(45deg);
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.round2 {
+	width: 150px;
+	height: 150px;
+	background: #faca28;
+	padding: 10px;
+
+	border: 2px solid black;
+	border-radius: 50px 20px 90%;
+
+	display: inline-block;
+
+	transform: rotate(45deg);
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.round3 {
+	width: 150px;
+	height: 150px;
+	background: #fa0caa;
+	padding: 10px;
+
+	border: 2px solid black;
+	border-radius: 10px 100px 50%;
+
+	display: inline-block;
+
+	transform: rotate(45deg);
+	margin-top: 50px;
+	margin-left: 60px;
+}
+

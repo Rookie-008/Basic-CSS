@@ -1,0 +1,49 @@
+body {
+	padding: 0px 50px;
+}
+
+.round1 {
+	width: 150px;
+	height: 150px;
+	background: #2ad800;
+	padding: 10px;
+
+	border-radius: 10px 150px 10px;
+	border: 2px solid black;
+	display: inline-block;
+
+	transform: rotate(-45deg);
+	margin-left: 40px;
+}
+
+.round2 {
+	width: 80px;
+	height: 80px;
+	background: #7ecc00;
+	padding: 10px;
+
+	border: 2px solid black;
+	border-radius: 100px;
+
+	display: inline-block;
+	position: relative;
+	margin: 63px -140px;
+	margin-bottom: 50px;
+}
+
+.round3 {
+	width: 5%;
+
+	background: yellow;
+	padding: 10px;
+
+	border: 2px solid black;
+	border-radius: 1px 100%;
+
+	display: inline-block;
+	
+	position: relative;
+	transform: rotate(80deg);
+
+	margin: 90px 45px;
+}

@@ -1,0 +1,29 @@
+body {
+	padding: 0px 0px;
+}
+
+.round1 {
+	width: 150px;
+	height: 150px;
+	background: #ff9b13;
+	padding: 10px;
+
+	border: 2px solid black;
+	border-radius: 100px / 40px;
+
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.round2 {
+	width: 150px;
+	height: 150px;
+	background: #ff9b13;
+	padding: 10px;
+
+	border: 2px solid black;
+	border-radius: 100px / 40px 50%;
+
+	display: inline-block;
+	margin-left: 20px;
+}

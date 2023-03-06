@@ -1,0 +1,36 @@
+h1 {
+	color: aqua;
+	text-shadow: 1px 1px 1px yellowgreen;
+}
+
+p {
+	transform: translate(10px);
+	color: white;
+	text-shadow: 1px 1px 1px grey;
+}
+
+.pattern1 {
+	background-image: url(pic/pattern1.gif);
+	background-repeat: repeat;
+	border: 2px solid black;
+/*	background-size: cover;*/
+
+	padding: 10px;
+
+	display: inline-block;
+}
+
+.pattern2 {
+	width: 200px;
+	height: 500px;
+	
+	background-image: url(pic/pattern2.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 150px 200px;
+	margin-top: -210px;
+	margin-left: 600px;
+
+
+	display: inline-block;
+}

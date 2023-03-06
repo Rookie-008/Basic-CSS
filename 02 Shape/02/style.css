@@ -1,0 +1,19 @@
+body {
+	color: aqua;
+}
+
+div {
+	width: 200px;
+	height: 100px;
+	box-shadow: 0px 0px 20px currentColor;
+	border: 5px solid currentColor;
+	padding: 10px;
+}
+
+p {
+	color: darkgrey;
+	font-size: 15px;
+	padding: 25px;	
+	text-align: center;
+	text-shadow: 1px 1px 1px aqua;
+}

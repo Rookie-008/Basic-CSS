@@ -1,0 +1,52 @@
+.gradient1 {
+	height: 100px;
+	background-color: aqua;
+	background-image: linear-gradient(180deg, aqua,lightgreen);
+
+	border: 2px solid black;
+}
+
+.gradient2 {
+	height: 100px;
+	background-color: aqua;
+	background-image: linear-gradient(to right, aqua,lightgreen);
+	position: relative;
+	border: 2px solid black;
+	margin-top: 10px;
+}
+
+.gradient3 {
+	height: 100px;
+	background-color: aqua;
+	background-image: linear-gradient(to right, aqua,lightgreen,lavender,lightsalmon,blueviolet);
+	position: relative;
+	border: 2px solid black;
+	margin-top: 10px;
+}
+
+.gradient4 {
+	height: 100px;
+	background-color: aqua;
+	background-image: linear-gradient(to right, rgba(200, 10, 20, 0.5), rgba(100, 20, 0, 1.0));
+	position: relative;
+	border: 2px solid black;
+	margin-top: 10px;
+}
+
+.gradient5 {
+	height: 100px;
+	background-color: aqua;
+	background-image: repeating-linear-gradient(90deg, aqua, lightgreen 10%, lightcoral 15%);
+	position: relative;
+	border: 2px solid black;
+	margin-top: 10px;
+}
+
+.gradient6 {
+	height: 100px;
+	background-color: aqua;
+	background-image: repeating-linear-gradient(45deg, aqua, darkviolet 20%, yellow 10%);
+	position: relative;
+	border: 2px solid black;
+	margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+.gradient1 {
+	height: 100px;
+	background-color: aqua;
+	background-image: radial-gradient(circle at right, yellow 1%,red 2%, green 3%,aqua 4%);
+
+	border: 2px solid black;
+}
+
+.gradient2 {
+	height: 100px;
+	background-color: aqua;
+	background-image: radial-gradient(circle at top right, darkmagenta 5%, lightgreen 10%);
+	position: relative;
+	border: 2px solid black;
+	margin-top: 10px;
+}
+
+.gradient3 {
+	height: 100px;
+	background-color: aqua;
+
+	background-image: radial-gradient(circle at bottom left, lavender 10%, yellow 10%);
+	position: relative;
+	border: 2px solid black;
+	margin-top: 10px;
+}

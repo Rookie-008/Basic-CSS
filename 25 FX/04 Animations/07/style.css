@@ -1,0 +1,59 @@
+.fx1 {
+	width: 100px;
+	height: 100px;
+	background-color: #1bff1b;
+	position: relative;
+	animation-name: FX;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: 2;
+}
+
+.fx2 {
+	width: 100px;
+	height: 100px;
+	background-color: #1bff1b;
+	position: relative;
+	animation-name: FX;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: 2;
+}
+
+.fx3 {
+	width: 100px;
+	height: 100px;
+	background-color: #1bff1b;
+	position: relative;
+	animation-name: FX;
+	animation-duration: 2s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 2;
+}
+
+.fx4 {
+	width: 100px;
+	height: 100px;
+	background-color: #1bff1b;
+	position: relative;
+	animation-name: FX;
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: 2;
+}
+
+.fx5 {
+	width: 100px;
+	height: 100px;
+	background-color: #1bff1b;
+	position: relative;
+	animation-name: FX;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 2;
+}
+
+@keyframes FX {
+	from {left: 0px;}
+	to {left: 300px;}
+}

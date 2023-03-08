@@ -1,0 +1,48 @@
+.transform1 {
+	margin: 50px;
+	width: 200px;
+	height: 100px;
+	background-color: purple;
+	border: 2px solid black;
+}
+
+.transform2 {
+	margin: 50px;
+	width: 200px;
+	height: 100px;
+	background-color: purple;
+	border: 2px solid black;
+}
+
+.transform3 {
+	margin: 50px;
+	width: 200px;
+	height: 100px;
+	background-color: purple;
+	border: 2px solid black;
+}
+
+.transform4 {
+	margin: 50px;
+	width: 200px;
+	height: 100px;
+	background-color: purple;
+	border: 2px solid black;
+}
+
+
+.transform1:active {
+	transform: scaleX(3);
+}
+
+.transform2:active {
+	transform: scaleX(0.5);
+}
+
+.transform3:active {
+	transform: scaleY(2);
+}
+
+.transform4:active {
+	transform: scaleY(0.5);
+}

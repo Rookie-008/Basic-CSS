@@ -1,0 +1,15 @@
+.transform {
+	width: 100px;
+	height: 100px;
+	background: orangered;
+	transition-property: width 5s;
+	transition: height 1s, transform 2s;
+	transition-timing-function: ease-in-out;
+/*	transform: scaleX(2);*/
+}
+
+.transform:active {
+	width: 300px;
+	height: 300px;
+	transform: scaleY(2);
+}

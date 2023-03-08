@@ -1,0 +1,69 @@
+.fx1 {
+	width: 100px;
+	height: 100px;
+	background: orangered;
+	border: 2px solid black;
+	transition: width 5s;
+}
+
+.fx2 {
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+	background: orangered;
+	border: 2px solid black;
+	transition: width 5s;
+}
+
+.fx3 {
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+	background: orangered;
+	border: 2px solid black;
+	transition: width 5s;
+}
+
+.fx4 {
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+	background: orangered;
+	border: 2px solid black;
+	transition: width 5s;
+}
+
+.fx5 {
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+	background: orangered;
+	border: 2px solid black;
+	transition: width 5s;
+}
+
+
+.fx1:hover {
+	width: 400px;
+	transition-timing-function: linear;
+}
+
+.fx2:hover {
+	width: 400px;
+	transition-timing-function: ease;
+}
+
+.fx3:hover {
+	width: 400px;
+	transition-timing-function: ease-in;
+}
+
+.fx4:hover {
+	width: 400px;
+	transition-timing-function: ease-out;
+}
+
+.fx5:hover {
+	width: 400px;
+	transition-timing-function: ease-in-out;
+}

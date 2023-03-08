@@ -1,0 +1,12 @@
+.transform {
+	width: 100px;
+	height: 100px;
+	background: orangered;
+	transition: width 1s, height 1s, transform 1s;
+}
+
+.transform:active {
+	width: 300px;
+	height: 300px;
+	transform: rotate(180deg);
+}

@@ -1,0 +1,17 @@
+.fx1 {
+	width: 100px;
+	height: 100px;
+	background-color: #1bff1b;
+	position: relative;
+	animation-name: FX;
+	animation-duration: 5s;
+}
+
+@keyframes FX {
+	0% {background-color: 1bff1b; left: 0px; top: 0px}
+	20% {background-color: #38ffbb; left: 200px; top: 0px}
+	40% {background-color: #ffee00; left: 150px; top: 50px}
+	60% {background-color: #fd00ac; left: 100px; top: 150px}
+	80% {background-color: #3a00c2; left: 50px; top: 200px}
+	100% {background-color: #fd0027; left: 0px; top: 0px}
+}

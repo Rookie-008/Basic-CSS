@@ -1,0 +1,12 @@
+.fx1 {
+	width: 100px;
+	height: 100px;
+	background: orangered;
+	border: 2px solid black;
+	transition: width 2s, height 4s;
+}
+
+.fx1:active {
+	width: 200px;
+	height: 200px;
+}

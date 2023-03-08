@@ -1,0 +1,12 @@
+.fx1 {
+	width: 100px;
+	height: 100px;
+	background-color: #1bff1b;
+	animation-name: FX;
+	animation-duration: 5s;
+}
+
+@keyframes FX {
+	from {background-color: 1bff1b;}
+	to {background-color: #38ffbb;}
+}

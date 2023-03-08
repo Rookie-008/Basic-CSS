@@ -1,0 +1,12 @@
+.fx1 {
+	width: 100px;
+	height: 100px;
+	background: orangered;
+	border: 2px solid black;
+	transition: width 4s;
+	transition-delay: 2s;
+}
+
+.fx1:hover {
+	width: 400px;
+}

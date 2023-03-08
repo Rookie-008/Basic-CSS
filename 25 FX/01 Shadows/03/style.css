@@ -1,0 +1,13 @@
+#box1 {
+	border: 2px solid;
+	padding: 20px;
+	box-shadow: 5px 10px red, 10px 20px yellow, 15px 30px green;
+	margin: 20px;
+}
+
+#box2 {
+	border: 2px solid;
+	padding: 20px;
+	box-shadow: 5px 10px 5px red, 10px 20px 5px yellow, 15px 30px 5px green;
+	margin: 20px;
+}

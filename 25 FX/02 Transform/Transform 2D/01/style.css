@@ -1,0 +1,10 @@
+.transform {
+	width: 200px;
+	height: 100px;
+	background-color: purple;
+	border: 2px solid black;
+}
+
+.transform:active {
+	transform: translate(50px, 100px);
+}

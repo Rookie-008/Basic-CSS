@@ -1,0 +1,12 @@
+.transform1 {
+	width: 200px;
+	height: 100px;
+	background-color: purple;
+	border: 2px solid black;
+}
+
+.transform1:active {
+	transform: rotateX(150deg);
+	transition-duration: 2s;
+/*	transition-timing-function: linear;*/
+}

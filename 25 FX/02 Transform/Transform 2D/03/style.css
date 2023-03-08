@@ -1,0 +1,23 @@
+.transform1 {
+	width: 200px;
+	height: 100px;
+	background-color: purple;
+	border: 2px solid black;
+	margin-top: 50px;
+}
+
+.transform2 {
+	width: 200px;
+	height: 100px;
+	background-color: purple;
+	border: 2px solid black;
+	margin-top: 50px;
+}
+
+.transform1:hover {
+	transform: rotate(90deg);
+}
+
+.transform2:hover {
+	transform: rotate(-90deg);
+}

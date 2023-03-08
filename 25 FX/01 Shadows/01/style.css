@@ -1,0 +1,22 @@
+.fx1 {
+	text-shadow: 2px 1px aqua;
+}
+
+.fx2 {
+	color: white;
+	text-shadow: 1px 1px 4px black, 0 0 20px blue, 0 0 11px darkred;
+}
+
+.fx3 {
+	color: navajowhite;
+	text-shadow: -2px 0px black, 0 2px black, 2px 0px black, 0 -2px black;
+}
+
+h2 {
+	color: darkviolet;
+	text-shadow: 2px 1px 5px;
+}
+
+h3 {
+	text-shadow: 0px 0px 5px #70ff30, 0px 0px 5px #4dec02;
+}

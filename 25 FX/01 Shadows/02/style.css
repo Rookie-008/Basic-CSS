@@ -1,0 +1,34 @@
+.box1 {
+	width: 200px;
+	height: 100px;
+	padding: 20px;
+	background-color: lightpink;
+	box-shadow: 5px 5px;
+}
+
+.box2 {
+	margin-top: 20px;
+	width: 200px;
+	height: 100px;
+	padding: 20px;
+	background-color: lightpink;
+	box-shadow: 5px 5px lightblue;
+}
+
+.box3 {
+	margin-top: 20px;
+	width: 200px;
+	height: 100px;
+	padding: 20px;
+	background-color: lightpink;
+	box-shadow: 5px 5px lightblue;
+}
+
+.box4 {
+	margin-top: 20px;
+	width: 200px;
+	height: 100px;
+	padding: 20px;
+	background-color: lightpink;
+	box-shadow: 30px 30px 30px lightblue inset;
+}

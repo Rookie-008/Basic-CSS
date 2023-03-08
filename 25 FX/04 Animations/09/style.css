@@ -1,0 +1,29 @@
+/*.fx1 {
+	width: 100px;
+	height: 100px;
+	background-color: #1bff1b;
+	position: relative;
+	animation-name: FX1;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: 2;
+	animation-direction: alternate;
+}
+*/
+
+.fx1 {
+	width: 100px;
+	height: 100px;
+	background-color: #1bff1b;
+	position: relative;
+	animation: FX1 5s linear 1s 2 alternate;
+}
+
+
+@keyframes FX1 {
+	0% {background-color: 1bff1b; left: 0px; top: 0px}
+	25% {background-color: #38ffbb; left: 200px; top: 0px}
+	50% {background-color: #ffee00; left: 200px; top: 200px}
+	75% {background-color: #fd00ac; left: 0px; top: 200px}
+	100% {background-color: #fd0027; left: 0px; top: 0px}
+}

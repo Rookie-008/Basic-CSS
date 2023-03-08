@@ -1,0 +1,56 @@
+.fx1 {
+	width: 100px;
+	height: 100px;
+	background-color: #1bff1b;
+	position: relative;
+	animation-name: FX1;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: 2;
+
+	animation-fill-mode: forwards;
+	display: inline-block;
+}
+
+.fx2 {
+	width: 100px;
+	height: 100px;
+	background-color: #1bff1b;
+	position: relative;
+	animation-name: FX2;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: 2;
+
+	animation-fill-mode: backwards;
+	display: inline-block;
+}
+
+.fx3 {
+	width: 100px;
+	height: 100px;
+	background-color: #1bff1b;
+	position: relative;
+	animation-name: FX3;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: 2;
+
+	animation-fill-mode: both;
+	display: inline-block;
+}
+
+@keyframes FX1 {
+	from {top: 0px;}
+	to {top: 300px; background-color: #38ffbb}
+}
+
+@keyframes FX2 {
+	from {top: 0px; background-color: #ffee00}
+	to {top: 300px;}
+}
+
+@keyframes FX3 {
+	from {top: 0px; background-color: #ffee00}
+	to {top: 300px; background-color: #38ffbb}
+}

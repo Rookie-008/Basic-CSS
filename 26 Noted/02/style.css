@@ -1,0 +1,26 @@
+.shape {
+	position: relative;
+	display: inline-block;
+	margin: 50px 100px;
+}
+
+.shape .noted {
+	/* Shaped */
+	width: 100px;
+	border-radius: 10px;
+	background-color: black;
+	color: aqua;
+	text-align: center;
+	padding: 5px 0;
+
+    /* Noted */
+	visibility: hidden;	
+	position: absolute;
+	z-index: 1;
+/*	left: 100%;*/
+	right: 100%;
+}
+
+.shape:hover .noted {
+	visibility: visible;
+}

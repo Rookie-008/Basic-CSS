@@ -1,0 +1,20 @@
+body {
+	background-color: lightgrey;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+
+.blur {filter: blur(5px);}
+.bright {filter: brightness(300%);}
+.contra {filter: contrast(200%);}
+.gray {filter: grayscale(200%);}
+.hue-rot {filter: hue-rotate(150deg);}
+.invert {filter: invert(100%);}
+.opacity {filter: opacity(50%);}
+.saturate {filter: saturate(8);}
+.sepia {filter: sepia(100%);}
+.shadow {filter: drop-shadow(4px 4px 16px aqua);}

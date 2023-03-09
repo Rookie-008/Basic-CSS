@@ -1,0 +1,10 @@
+img {
+	border: 2px solid lightgrey;
+/*	border-radius: 50px;*/
+	padding: 4px;
+	width: 200px;
+}
+
+img:hover {
+	box-shadow: 0 0 5px 2px black;
+}

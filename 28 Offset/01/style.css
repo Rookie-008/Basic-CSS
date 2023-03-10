@@ -1,0 +1,9 @@
+.pic1 {
+	display: block;
+}
+
+.pic2 {
+	transform: rotate(180deg);
+/*	transform: scaleY(-1);*/
+	display: block;
+}

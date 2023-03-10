@@ -1,0 +1,40 @@
+.overlay {
+	position: relative;
+	width: 50%;
+}	
+
+.pic {
+	width: 100%;
+	height: auto;
+	display: block;
+/*	margin-top: 200px;*/
+}
+
+.fx {
+	width: 100%;
+	height: 0;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	background-color: aqua;
+
+	position: absolute;
+	transition: 2s ease;
+}
+
+.text {
+	top: 50%;
+	left: 50%;
+	color: white;
+	
+	font-size: 20px;
+	position: absolute;
+
+	transform: translate(-50%, -50%);
+}
+
+
+.overlay:hover .fx {
+	bottom: 0%;
+	height: 100%;
+}

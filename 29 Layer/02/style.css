@@ -1,0 +1,21 @@
+.layer1 {
+	opacity: 50%;
+	border: 2px solid black;
+}
+
+.layer2 {
+	border-radius: 100%;
+	position: relative;
+	right: 260px;
+	bottom: 50px;
+}
+
+.layer3 {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	right: 415px;
+	bottom: 120px;
+
+	opacity: 40%;
+}

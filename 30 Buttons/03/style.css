@@ -1,0 +1,40 @@
+.button1 {
+	background-color: aqua;
+	border: 2px solid black;
+	color: white;
+	padding: 10px 20px;
+
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+
+	font-size: 20px;
+	margin: 10px 15px;
+
+	cursor: help;
+}
+
+.button2 {
+	background-color: #ff11ac;
+	border: 2px solid white;
+	color: black;
+	padding: 10px 20px;
+
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+
+	font-size: 20px;
+	margin: 10px 15px;
+
+	cursor: help;
+}
+
+.button1:hover {
+	box-shadow: 0 4px 8px 0 greenyellow, 0 4px 8px 0 yellow;
+}
+
+.button2 {
+	opacity: 0.5;
+	cursor: not-allowed;
+}

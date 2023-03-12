@@ -1,0 +1,11 @@
+.image1 {
+	width: 200px;
+	height: 200px;
+
+	margin: 20px 40px;
+
+	image-rendering: crisp-edge;
+/*	image-rendering: smooth;*/
+/*	image-rendering: pixelated;*/
+/*	image-rendering: high-quality;*/
+}

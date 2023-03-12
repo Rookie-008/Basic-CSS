@@ -1,0 +1,15 @@
+.page {
+	display: inline-block;
+}
+
+.page a {
+	color: black;
+	float: left;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.page a:active {
+	background-color: aqua;
+	color: white;
+}
